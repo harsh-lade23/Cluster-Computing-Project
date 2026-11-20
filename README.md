@@ -6,6 +6,8 @@ This project implements an end-to-end distributed machine learning pipeline usin
 
 The pipeline demonstrates core cluster computing concepts, distributed data transformations, machine learning pipelines, and decision threshold optimization using **PySpark in standalone local mode** (`local[*]`), without relying on external machine learning packages or distributed cluster infrastructure (Kafka/Hadoop).
 
+> 🤖 **Quick Setup with AI Agent**: If you or a collaborator use an AI coding assistant (Cursor, Antigravity, Claude Code, Copilot Workspace), see [AGENT_PROMPT.md](AGENT_PROMPT.md) for a ready-to-paste prompt that sets up the environment and launches the dashboard automatically.
+
 ---
 
 ## Project Structure
