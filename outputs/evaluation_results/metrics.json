@@ -1,0 +1,35 @@
+{
+    "test_records_count": 958,
+    "actual_failures_count": 132,
+    "selected_validation_threshold": 0.16,
+    "default_threshold_metrics": {
+        "threshold": 0.5,
+        "accuracy": 0.8674,
+        "precision": 0.8571,
+        "recall": 0.0455,
+        "f1_score": 0.0863,
+        "roc_auc": 0.6932,
+        "confusion_matrix": {
+            "tp": 6,
+            "fp": 1,
+            "tn": 825,
+            "fn": 126
+        },
+        "predicted_failures_count": 7
+    },
+    "optimized_threshold_metrics": {
+        "threshold": 0.16,
+        "accuracy": 0.7234,
+        "precision": 0.2546,
+        "recall": 0.5227,
+        "f1_score": 0.3424,
+        "roc_auc": 0.6932,
+        "confusion_matrix": {
+            "tp": 69,
+            "fp": 202,
+            "tn": 624,
+            "fn": 63
+        },
+        "predicted_failures_count": 271
+    }
+}
